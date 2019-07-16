@@ -59,6 +59,10 @@ public class PlayerMovement : MonoBehaviour
         {
             torchThrowPoint.GetComponent<TorchThrow>().ThrowTorch();
         }
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            torchThrowPoint.GetComponent<TorchThrow>().ThrowRope();
+        }
 
 
 
